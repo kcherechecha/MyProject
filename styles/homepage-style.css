@@ -56,7 +56,7 @@
 .links a {
   margin: 20px;
   font-family: var(--text-font);
-  font-size: 30px;
+  font-size: 27px;
 }
 
 .contact-link,
@@ -72,6 +72,48 @@
 
 .about-link:hover,
 .contact-link:hover {
+  color: var(--main-text-col);
+}
+
+.projects {
+  margin: 250px 80px 150px;
+}
+
+.weather,
+.sing-img {
+  width: 400px;
+  height: 400px;
+  margin-left: 80px;
+}
+
+.project-name {
+  font-family: var(--main-text-font);
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+
+.description {
+  font-family: var(--text-font);
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.first-project {
+  margin-bottom: 60px;
+}
+
+.launch-button {
+  font-size: 18px;
+  background: #5ba3cc;
+  color: white;
+  border-radius: 20px;
+  padding: 10px 15px;
+  display: inline-block;
+}
+
+.launch-button:hover {
+  background: white;
+  border: 1px solid var(--text-color);
   color: var(--main-text-col);
 }
 
@@ -106,6 +148,24 @@
   }
 
   .upper-wrapper {
+    margin-bottom: 100px;
+  }
+
+  .projects {
+    /* margin-top: 85px !important; */
+    margin: 85px 40px !important;
+  }
+
+  .sing-img,
+  .weather {
+    width: 280px;
+    height: 280px;
+    margin-left: 15px;
     margin-bottom: 20px;
+    text-align: center !important;
+  }
+
+  .second-project {
+    display: none;
   }
 }
