@@ -1,7 +1,111 @@
-/* font-family: 'Asap', sans-serif; */
-/* font-family: 'Signika Negative', sans-serif; */
+:root {
+  --text-color: rgb(1, 48, 72);
+  --button-shadow: rgba(1, 48, 72, 0.2) 0px 7px 29px 0px;
+  --padding-inside-link: 15px 10px;
+  --main-text-col: #229fbd;
+  --main-text-font: "Signika Negative", sans-serif;
+  --text-font: "Asap", sans-serif;
+}
 
-.bg {
-  background-image: url("/img/homepageBG.png");
-  background-size: cover;
+.navbar {
+  z-index: 1;
+}
+.on-top {
+  position: fixed !important;
+  top: 0;
+  width: 100%;
+}
+.bg-col {
+  background: #e7eef0;
+}
+.bar-text {
+  color: var(--text-color) !important;
+  font-family: var(--text-font);
+}
+
+.upper-wrapper {
+  text-align: center;
+  margin: 150px 50px;
+  margin-bottom: 60px;
+}
+
+.text-information {
+  margin-top: 169px;
+}
+
+.subheading {
+  color: var(--text-color);
+  font-size: 40px;
+  font-family: var(--text-font);
+}
+
+.name {
+  color: var(--main-text-col);
+  margin-top: 36px;
+  margin-bottom: 36px;
+  font-size: 50px;
+  font-family: var(--main-text-font);
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+  margin-top: 52px;
+}
+
+.links a {
+  margin: 20px;
+  font-family: var(--text-font);
+  font-size: 30px;
+}
+
+.contact-link,
+.about-link {
+  padding: var(--padding-inside-link);
+  border: 1px solid var(--text-color);
+  box-shadow: var(--button-shadow);
+  border-radius: 40px;
+  flex: 1;
+  max-width: 250px;
+  color: var(--text-color);
+}
+
+.about-link:hover,
+.contact-link:hover {
+  color: var(--main-text-col);
+}
+
+@media screen and (max-width: 414px) {
+  .text-information {
+    margin-top: 100px;
+  }
+  .subheading {
+    font-size: 30px;
+  }
+  .name {
+    font-size: 40px;
+  }
+  .contact-link,
+  .about-link {
+    font-size: 25px !important;
+  }
+
+  .links {
+    display: grid;
+    margin-top: 40px;
+    margin-bottom: 5px !important;
+  }
+
+  .contact-link {
+    margin-bottom: 10px !important;
+  }
+
+  .contact-link,
+  .about-link {
+    width: 350px;
+  }
+
+  .upper-wrapper {
+    margin-bottom: 20px;
+  }
 }
