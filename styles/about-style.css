@@ -66,8 +66,31 @@
   font-size: 23px;
 }
 
-/* .project-image {
-  width: 100%;
+.picture-projects {
+  margin: 60px auto;
+}
+
+.singing-image {
+  width: 80%;
   height: auto;
   padding: 20px;
-} */
+}
+
+.weather-image {
+  width: 90%;
+  height: auto;
+  padding: 20px;
+}
+
+.project-name {
+  font-family: var(--main-text-font);
+  font-size: 30px;
+  color: var(--text-color);
+  margin-bottom: 15px;
+}
+
+.project-description {
+  font-family: var(--text-font);
+  font-size: 20px;
+  color: var(--text-color);
+}
