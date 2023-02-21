@@ -71,7 +71,7 @@
 }
 
 .singing-image {
-  width: 80%;
+  width: 90%;
   height: auto;
   padding: 20px;
 }
@@ -93,4 +93,22 @@
   font-family: var(--text-font);
   font-size: 20px;
   color: var(--text-color);
+  padding-bottom: 40px;
+}
+
+.launch-button {
+  font-family: var(--main-text-font);
+  font-size: 20px;
+  border-radius: 20px;
+  max-width: 250px;
+  color: white;
+  padding: 15px 20px;
+  background: #5ba3cc;
+  transition: ease-in-out 200ms;
+}
+
+.launch-button:hover {
+  color: var(--main-text-col);
+  background: white;
+  border: 1px solid var(--main-text-col);
 }
