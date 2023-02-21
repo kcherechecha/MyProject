@@ -25,12 +25,20 @@
 
 .upper-wrapper {
   text-align: center;
-  margin: 150px 50px;
-  margin-bottom: 60px;
+  padding: 150px 50px;
+  /* margin-bottom: 60px; */
+  background: url(/img/homepg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* height: 50%; */
+  /* width: 100%;
+  height: 685px; */
+  /* background-size: 100% 100%; */
+  background-position: center;
 }
 
 .text-information {
-  margin-top: 169px;
+  /* margin-top: 169px; */
 }
 
 .subheading {
