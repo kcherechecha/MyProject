@@ -5,8 +5,17 @@
   --text-color: rgb(1, 48, 72);
 }
 
+.wrapper {
+  margin: 120px 60px 60px;
+}
+
 .navbar {
   z-index: 1;
+}
+.on-top {
+  position: fixed !important;
+  top: 0;
+  width: 100%;
 }
 .bg-col {
   background: #e7eef0;
@@ -14,3 +23,29 @@
 .bar-text {
   font-family: var(--text-font);
 }
+
+.heading-text {
+  font-family: var(--main-text-font);
+  font-size: 40px;
+  color: var(--text-color);
+  margin: 40px auto;
+}
+
+.description {
+  font-family: var(--text-font);
+  font-size: 23px;
+  color: var(--text-color);
+  padding: 30px 30px;
+  background: rgba(34, 159, 189, 0.2);
+  border-radius: 20px;
+  max-width: 900px;
+  display: block;
+  margin: auto;
+  margin-bottom: 60px;
+}
+
+/* .project-image {
+  width: 100%;
+  height: auto;
+  padding: 20px;
+} */
