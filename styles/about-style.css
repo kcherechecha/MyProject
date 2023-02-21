@@ -1,0 +1,16 @@
+:root {
+  --main-text-font: "Signika Negative", sans-serif;
+  --text-font: "Asap", sans-serif;
+  --main-text-col: #229fbd;
+  --text-color: rgb(1, 48, 72);
+}
+
+.navbar {
+  z-index: 1;
+}
+.bg-col {
+  background: #e7eef0;
+}
+.bar-text {
+  font-family: var(--text-font);
+}
