@@ -44,6 +44,28 @@
   margin-bottom: 60px;
 }
 
+.links {
+  text-align: center;
+}
+
+.see-projects-link {
+  font-family: var(--main-text-font);
+  font-size: 20px;
+  padding: 20px 30px;
+  border: 1px solid var(--main-text-col);
+  background: white;
+  color: var(--main-text-col);
+  border-radius: 20px;
+  transition: ease-in-out 200ms;
+}
+
+.see-projects-link:hover {
+  background: #5ba3cc;
+  color: white;
+  border: 1px solid #5ba3cc;
+  font-size: 23px;
+}
+
 /* .project-image {
   width: 100%;
   height: auto;
