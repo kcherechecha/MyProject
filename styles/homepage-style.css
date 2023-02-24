@@ -16,7 +16,7 @@
   width: 100%;
 }
 .bg-col {
-  background: #e7eef0;
+  background: #f7f7f7;
 }
 .bar-text {
   color: var(--text-color) !important;
@@ -108,7 +108,7 @@
 
 .description {
   font-family: var(--text-font);
-  font-size: 20px;
+  font-size: 21px;
   margin-bottom: 20px;
 }
 
@@ -127,7 +127,7 @@
 
 .launch-button:hover {
   background: white;
-  border: 1px solid var(--text-color);
+  border: 1px solid #5ba3cc;
   color: var(--main-text-col);
 }
 
