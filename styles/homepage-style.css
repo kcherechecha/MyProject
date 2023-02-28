@@ -241,6 +241,7 @@
 
 .email-me {
   font-size: 20px;
+  color: var(--text-color);
 }
 
 .icon {
@@ -249,5 +250,10 @@
   font-size: 25px;
   border-radius: 20px;
   margin: 0 20px;
+  color: var(--text-color);
+}
+
+.coded-by {
+  font-family: var(--text-font);
   color: var(--text-color);
 }
