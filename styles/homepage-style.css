@@ -194,3 +194,60 @@
     background: white;
   }
 }
+
+.work-with-me {
+  background: rgba(34, 159, 189, 0.2);
+  text-align: center;
+  padding: 20px 30px;
+  border-radius: 20px;
+  margin: auto;
+  max-width: 1100px;
+  font-family: var(--text-font);
+}
+
+.contact-heading {
+  font-size: 30px;
+}
+
+.contact-subheading {
+  font-size: 20px;
+}
+
+.contact-work-with-me {
+  font-size: 20px;
+  margin-right: 70px;
+  margin-top: 30px;
+  font-size: 18px;
+  background: #5ba3cc;
+  color: white;
+  border-radius: 20px;
+  padding: 10px 25px;
+}
+
+.contact-work-with-me:hover {
+  background: transparent;
+  border: 1px solid #5ba3cc;
+  color: var(--main-text-col);
+}
+
+.text-work-with-me {
+  padding-left: 40px;
+}
+
+.button-work-with-me {
+  /* display: inline-block; */
+  /* padding-right: 100px; */
+}
+
+.email-me {
+  font-size: 20px;
+}
+
+.icon {
+  background: rgba(34, 159, 189, 0.2);
+  padding: 10px;
+  font-size: 25px;
+  border-radius: 20px;
+  margin: 0 20px;
+  color: var(--text-color);
+}
